@@ -7,4 +7,15 @@ if room=MainMenu {
 	if keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down) {
 		menu_pos=(menu_pos+1)%2	
 	}
+	if keyboard_check_pressed(vk_space) {
+		switch menu_pos {
+			case 0:
+				global.mode="solo"
+			break;
+			case 1:
+				global.mode="vs"
+			break;
+		}
+		room_goto_next()
+	}
 }
