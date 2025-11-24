@@ -5,9 +5,6 @@ event_inherited();
 var key_up = keyboard_check(vk_up);
 var key_down = keyboard_check(vk_down);
 
-// Set correct sprite orientation at start
-image_angle = 90;
-
 // Change player 2 speed
 if (key_up) {
 	vspeed = -2
