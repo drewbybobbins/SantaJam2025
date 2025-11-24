@@ -5,13 +5,14 @@ event_inherited();
 var key_up = keyboard_check(ord("W"));
 var key_down = keyboard_check(ord("S"));
 
+
 // Change player 1 speed
-if (key_up) {
+if (key_up){
 	vspeed = -2
-}
-else if (key_down) {
+};
+if (key_down){
 	vspeed = 2;
 }
-else {
+if not key_down and not key_up {
 	vspeed = 0;
 };
