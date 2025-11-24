@@ -36,6 +36,7 @@
   "name":"Sample",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"IMG_0302","path":"sprites/IMG_0302/IMG_0302.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
