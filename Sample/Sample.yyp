@@ -46,6 +46,7 @@
     {"id":{"name":"test","path":"objects/test/test.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"PlaySpace","path":"rooms/PlaySpace/PlaySpace.yy",},},
+    {"id":{"name":"draw_debug_array","path":"scripts/draw_debug_array/draw_debug_array.yy",},},
     {"id":{"name":"hori_wall","path":"sprites/hori_wall/hori_wall.yy",},},
     {"id":{"name":"IMG_0302","path":"sprites/IMG_0302/IMG_0302.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},

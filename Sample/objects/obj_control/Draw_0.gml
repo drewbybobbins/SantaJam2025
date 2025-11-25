@@ -1,7 +1,9 @@
+if global.debug {
+	draw_debug_array(debug_array)
+}
 draw_text(x,y,"Esc to Restart")
 draw_text(x,y+15,"1 to Main")
 draw_text(x,y+30,"2 to Play")
-draw_text(x,y+45,global.mode)
 if room=MainMenu {
 	draw_sprite_ext(spr_menu_solo,0,room_width/2-sprite_get_width(spr_menu_solo)/2,100,1,1,0,c_white,1)	
 	draw_sprite_ext(spr_menu_vs,0,room_width/2-sprite_get_width(spr_menu_vs)/2,150,1,1,0,c_white,1)
