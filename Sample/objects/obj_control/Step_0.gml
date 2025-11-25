@@ -1,5 +1,5 @@
 //updates debug array each step
-debug_array=["mode",global.mode,"menu pos", menu_pos,"left score",global.leftscore,"right score",global.rightscore,"alarm",alarm[0]]
+debug_array=["mode",global.mode,"menu pos", menu_pos,"left score",global.leftscore,"right score",global.rightscore,"alarm",alarm[0],"p1",instance_exists(obj_p1)]
 
 //on keypress, toggles debug mode on/off
 if keyboard_check_pressed(vk_tab) {
@@ -7,7 +7,7 @@ if keyboard_check_pressed(vk_tab) {
 }
 
 //enables menu controls if the room is MainMenu
-if room=MainMenu {
+if room==MainMenu {
 	//moves menu cursor up
 	if keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up) {
 		menu_pos=(menu_pos+1)%2	
@@ -31,6 +31,7 @@ if room=MainMenu {
 				instance_create_depth(550,room_height/2,0,obj_p2)
 			break;
 		}
+		
 		
 	}
 }
