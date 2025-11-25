@@ -9,4 +9,3 @@ direction = irandom_range(-45, 45) + (irandom_range(0,1) * 180);
 //Instance global variable to control ball
 global.ballDestroyed = false;
 
-collide = false;
