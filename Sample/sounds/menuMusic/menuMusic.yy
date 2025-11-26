@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"menuMusic",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":11.998912,
+  "exportDir":"",
+  "name":"menuMusic",
+  "parent":{
+    "name":"Sample",
+    "path":"Sample.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"menuMusic.wav",
+  "volume":1.0,
+}
