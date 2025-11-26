@@ -1,1 +1,1 @@
-room_goto(PlaySpace)
+//room_goto(PlaySpace)
